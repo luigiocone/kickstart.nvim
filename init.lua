@@ -32,6 +32,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 require 'set'
+require 'remap'
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`

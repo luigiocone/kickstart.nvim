@@ -6,6 +6,9 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- No line wrapping
+vim.opt.wrap = false
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
@@ -55,3 +58,6 @@ vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
+
+-- Visual threshold
+vim.opt.colorcolumn = '80'
